@@ -1,0 +1,287 @@
+* {
+    margin: 0px;
+}
+
+@media (max-width: 768px) { 
+    
+    .logo-container {
+   display: flex;
+   justify-content: center;
+   size: 28px;
+        
+    }
+
+    body {
+        font-size: 20px;
+        background-attachment: fixed;
+    }
+        
+    
+    a {
+        font-size: 20px;
+    }
+       
+
+}
+
+body {
+  /*  background-image: url();
+    background-size: 100% 100%;
+    background-attachment:fixed; 
+    */
+    
+    background-color: whitesmoke;
+    
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icheckbox {
+    padding: 3px;
+    margin-bottom: 9px;
+    text-align: left;
+}
+
+.icheckbox a{
+   color: maroon;
+   font-size: 17px;
+}
+
+.icheckbox a:hover{
+    text-decoration: none;
+    font-size: 17px;
+       color: black;
+}
+
+.icheckbox ul label {
+    font-size: 19px;
+
+    
+}
+
+
+.navbar {
+    display: list-item;
+    align-items: center;
+
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: maroon;
+    width: 100%;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    
+    margin: 25px;
+    text-decoration: none;
+    color: white;    
+    font-size: 18px;
+    
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+     transition: 0.1s;
+}
+.btnsignup {
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    width: 4.5rem;
+    height: 2.1rem;
+    margin-right: 10px;
+
+}
+
+.btnsignup:hover {
+	
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.login-container {
+    
+    width: 450px;
+    height: 500px;
+    background-color:white;
+    margin: 20px auto;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+    
+}
+  
+.login {
+    
+    padding: 50px;
+    
+
+}
+
+.login-head {
+    width: 96%;
+    height: 40px;
+    background-color: maroon;
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 20px;
+    
+}
+
+
+.login-head h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin:8px;
+    
+}
+
+.login label {
+    font-size: 20px;
+    opacity:0.5;
+
+}
+
+input[type= text],
+input[type= password]
+{
+ width: 90%;
+ padding: 15px;
+ border: none;
+ border-bottom: 1px solid gray;
+ margin-bottom: 20px;
+    
+}
+
+.login-btn {
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    background: maroon;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.login-btn:hover {
+    background: white;
+    color: maroon;
+    border: 2px solid black;
+  
+    
+}
+
+.login-gmail {
+    width: 20rem;
+    border-radius: 10px;
+    background: #E6DCDC  ;
+    display: flex;
+    border: none;
+    
+    
+} 
+
+
+.login-gmail img{
+    width: 30px;
+    
+    
+} 
+
+.login-gmail p {
+  font-size: 15px;
+    color: black;
+    margin:7px;
+    margin-left: 65px;
+    font-weight: ;
+} 
+
+.login-gmail:hover{
+     border: 2px solid #E6DCDC;
+     font-size: bold;
+    cursor: pointer;
+    
+} 
+
+.h {
+    font-weight: 100;
+    margin: 10px
+}
+
+
+
+
+
+
+
+.footer-container{
+    background-color: black;
+    padding: 4rem 0 4rem 0;
+    margin-top: 140px;
+    font-size: 15px;
+}
+ .footer {
+        width: 80%;
+     height: 60vh;
+     color:  black;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-top: 20px;
+    
+    
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+    color: #E2B31F;
+}
+.footer-heading a {
+    color: antiquewhite;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+    
+}
+.footer-heading a:hover{
+    color: red;
+    transition: 0.3s ease-out;
+    
+}
